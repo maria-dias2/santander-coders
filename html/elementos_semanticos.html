@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Semânticos</title>
+</head>
+<body>
+    <header>
+        <nav>Barra de navegação</nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <section id="about-me">
+            <figure>
+                <img src= images/20220828_145234.jpg alt="Maria Eduarda - imagem de perfil" width="150">
+                <figcaption>Foto de perfil do GitHub - Maria Eduarda</figcaption>
+            </figure>
+            
+            Sobre mim
+        </section>
+
+        <section id="portfolio">
+            Portfólio
+        </section>
+
+        <section itemref="blog">
+            Blog
+            <!-- Posso utilizar novamente as tags header, main e footer, poisé como se tivesse criado um novo escopo -->
+            <article>
+                <header></header>
+                <main></main>
+                <footer></footer>
+            </article>
+        </section>
+        
+    </main>
+
+    <!-- Barra Lateral -->
+    <aside>Conteúdo da barra lateral</aside>
+    
+    <footer>
+        Desenvolvido por Maria Eduarda
+    </footer>
+</body>
+</html>
