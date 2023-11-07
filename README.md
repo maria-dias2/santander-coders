@@ -1,6 +1,6 @@
-# Curso Digital: Git/Versionamento 
+# Trilha Digital | Web Front-End
 
-# Salvando modificações no Git
-* comando git push
-* comando git pull
-* comando git fetch
+## Aprendendo conteúdos sobre:
+
+* Git e GitHub
+* HTML
