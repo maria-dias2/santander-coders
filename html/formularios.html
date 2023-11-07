@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Formulários</h1>
+        <hr>
+        <br>
+
+        <form action="" method="get">
+            <div>
+                <label for="texto">Input de texto: </label>
+                <!-- id - indicar a label -->
+                <!-- placeholder - texto de sugestão -->
+                <!-- value - conteúdo inicial -->
+                <!-- name - identifica essa forma em particular quando submeter -->
+                <input type="text" id="texto" placeholder="Informe seu nome..." name="nome">
+            </div>
+            
+            <div>
+                <label for="senha">Senha: </label>
+                <input type="password" name="senha" id="senha">
+            </div>
+
+            <div>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="data">Data de nascimento: </label>
+                <input type="date" name="data" id="data">
+            </div>
+            
+            <div>
+                <label for="hora">Horário: </label>
+                <input type="time" name="hora" id="hora">
+            </div>
+
+            <div>
+                <label for="numero">Número: </label>
+                <input type="number" name="numero" id="numero">
+            </div>
+
+            <div>
+                <label for="arquivo">Arquivo: </label>
+                <input type="file" name="arquivo" id="arquivo">
+            </div>
+
+            <div>
+                <label for="url">URL: </label>
+                <input type="url" name="url" id="url">
+            </div>
+
+            <div>
+                <label for="cor">Cor</label>
+                <input type="color" name="cor" id="cor">
+            </div>
+
+            <div>
+                <label for="range">Range</label>
+                <input type="range" name="range" id="range" value="100" max="200" min="100">
+            </div>
+
+            <div>
+                <label for="checkbox">Checkbox</label>
+                <input type="checkbox" name="checkbox" id="checkbox" checked>
+            </div>
+
+            <div>
+                <label for="radio">Radio</label>
+                <input type="radio" name="radio" id="radio">
+            </div>
+
+            <div>
+                <label for="reset">Botão Limpar</label>
+                <input type="reset" name="reset" id="reset">
+            </div>
+
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+            <div>
+                <select name="select" id="select">
+                    <option value="" disabled selected>Selecione uma das opções...</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="tranferencia">Tranferência</option>
+                </select>
+            </div>
+
+            <br>
+            <div>
+                <!-- botão enviar -->
+                <input type="submit" name="enviar" id="enviar">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
